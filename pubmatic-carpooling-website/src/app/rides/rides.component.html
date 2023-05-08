@@ -1,0 +1,11 @@
+<section class="rides">
+    <form class="filter">
+      <input type="text" placeholder="Enter a location">
+      <input type="date" placeholder="Select a date">
+      <button class="button primary">Search</button>
+    </form>
+    <div class="cards">
+      <app-ride-card *ngFor="let ride of rides" [ride]="ride"></app-ride-card>
+    </div>
+  </section>
+  

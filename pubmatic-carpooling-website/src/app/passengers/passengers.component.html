@@ -1,0 +1,12 @@
+<section class="passengers">
+    <h2 class="title">Passengers</h2>
+    <div class="passenger-list">
+      <div class="card" *ngFor="let passenger of passengers">
+        <div class="card-content">
+          <p class="subtitle">{{ passenger.name }}</p>
+          <p>Rating: {{ passenger.rating }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  

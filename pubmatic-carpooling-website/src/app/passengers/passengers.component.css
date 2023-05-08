@@ -1,0 +1,27 @@
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .passenger-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .passenger-name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .passenger-rating {
+    font-size: 16px;
+    color: #999;
+  }
+  
